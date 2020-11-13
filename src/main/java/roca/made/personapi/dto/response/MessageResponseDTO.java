@@ -1,6 +1,9 @@
 package roca.made.personapi.dto.response;
 
 
+import lombok.Builder;
+
+@Builder
 public class MessageResponseDTO {
     private String message;
 
